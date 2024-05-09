@@ -4,7 +4,7 @@
 
 int main(void) {
 	// allocate lo spazio per una stringa nello heap
-	char* s = malloc(strlen("Hello World!"));
+	char* s = malloc(1+strlen("Hello World!"));
 	strcpy(s, "Hello World!");
 
 	printf("%s\n", s);
